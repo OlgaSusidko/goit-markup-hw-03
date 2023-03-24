@@ -1,0 +1,226 @@
+:root {
+  --main-tittle-color: #2e2f42;
+  --color-white: #ffffff;
+  --primary-color: #4d5ae5;
+  --text-color: #434455;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-white);
+  color: var(--text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.logo:hover,
+.logo:focus {
+  color: #404bbf;
+}
+
+.btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-tittle-color);
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.title-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-tittle-color);
+}
+
+/* ---------------Шапка сайту--------------- */
+.header {
+}
+
+.header-navigation {
+}
+
+.header-logo {
+}
+
+.logo-design {
+  color: var(--main-tittle-color);
+}
+
+.header-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.header-item {
+}
+
+.header-link {
+  color: var(--main-tittle-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+}
+
+.header-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-address-link {
+  color: var(--text-color);
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+  color: #404bbf;
+}
+
+/* ---------------Герой--------------- */
+.hero {
+  background-color: var(--main-tittle-color);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+}
+
+.hero-btn {
+  color: var(--color-white);
+  background-color: var(--primary-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
+/* ---------------Переваги--------------- */
+.advantages {
+}
+.advantages-title {
+}
+.advantages-list {
+}
+.advantages-item {
+}
+.advantages-title-text {
+}
+.advantages-text {
+  color: var(--text-color);
+}
+
+/* ------------Чим ми займаємось------------ */
+.about {
+}
+.about-title {
+}
+.about-list {
+}
+
+.about-item {
+}
+
+/* ------------Наша команда------------ */
+.team {
+  background-color: #f4f4fd;
+}
+.team-title {
+}
+.team-list {
+}
+
+.team-item {
+  background-color: #ffffff;
+}
+.team-title-photo {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.team-text {
+  text-align: center;
+  color: var(--text-color);
+}
+
+/* ------------Футер------------ */
+
+.footer {
+  background-color: var(--main-tittle-color);
+}
+.footer-logo-design {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
+}
+
+/* ------------ПОРТФОЛІО------------ */
+.filter {
+}
+
+.filter-btn {
+  color: #4d5ae5;
+  background: #f4f4fd;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--color-white);
+  background-color: #404bbf;
+}
